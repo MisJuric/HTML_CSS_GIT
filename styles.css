@@ -2,18 +2,63 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #f4f4f4;
+    background-color: #f96c6c;
 }
 
 /* Style for the H1 heading */
 h1 {
-    color: #333366; /* Dark blue color */
+    color: #000000; /* Dark blue color */
     border-bottom: 2px solid #333366;
     padding-bottom: 10px;
 }
 
 /* Style for the paragraph */
 p {
-    color: #555555; /* Gray color */
+    color: #000000; /* Gray color */
     line-height: 1.6;
+}
+
+.top-menu {
+    background: #000000;     /* barva pozadí */
+    padding: 15px;           /* vnitřní okraj */
+    width: 100%;             /* přes celou šířku */
+}
+
+.top-menu ul {
+    list-style: none;        /* odstraní puntíky */
+    margin: 0;
+    padding: 0;
+    display: flex;           /* položky vedle sebe */
+    justify-content: center; /* zarovnání doprostřed */
+    gap: 40px;               /* mezery mezi položkami */
+}
+
+.top-menu a {
+    text-decoration: none;   /* bez podtržení */
+    color: #ffffff;             /* barva textu */
+    font-size: 20px;         /* větší text */
+    font-weight: 600;
+}
+
+.top-menu a:hover {
+    color: #a00bf0;          /* barevný efekt při najetí */
+}
+
+.Amy_Lee {
+    width: 500px;
+}
+
+.uvodni {
+    display: block;
+    margin:auto;
+}
+
+.purple {
+    color: #6b0f9cd2;
+}
+
+.vedle {
+    display: inline-block;
+    width: 700px;
+    margin-right: 10px;
 }
